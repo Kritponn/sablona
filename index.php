@@ -11,6 +11,7 @@
 <body>
 
   <?php require "parts/header.php"?>  
+  
     <main>
       <section class="slides-container">
         <div class="slide fade">
@@ -43,7 +44,13 @@
           <div class="col-100 text-center">
           
             <?php
-            include "functions.php"            
+            include "parts/functions.php"            
+            ?>
+            <?php
+            include "db/spracovanieOtazok.php"            
+            ?>
+            <?php
+            pridajPozdrav();            
             ?>
               <p><strong><em>Elit culpa id mollit irure sit. Ex ut et ea esse culpa officia ea incididunt elit velit veniam qui. Mollit deserunt culpa incididunt laborum commodo in culpa.</em></strong></p>
           </div>
