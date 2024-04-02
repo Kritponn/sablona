@@ -45,12 +45,15 @@
           
             <?php
             include "parts/functions.php"            
+<<<<<<< Updated upstream
             ?>
             <?php
             include "db/spracovanieOtazok.php"            
             ?>
             <?php
             pridajPozdrav();            
+=======
+>>>>>>> Stashed changes
             ?>
               <p><strong><em>Elit culpa id mollit irure sit. Ex ut et ea esse culpa officia ea incididunt elit velit veniam qui. Mollit deserunt culpa incididunt laborum commodo in culpa.</em></strong></p>
           </div>

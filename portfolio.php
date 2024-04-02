@@ -11,7 +11,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+<<<<<<< Updated upstream
          <?php require "parts/header.php"?>  
+=======
+    <?php require "parts/header.php"?> 
+>>>>>>> Stashed changes
 
         <main>
             <section class="banner">

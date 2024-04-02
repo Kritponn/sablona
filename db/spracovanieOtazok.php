@@ -23,22 +23,22 @@ try {
 // Dotaz pre získanie otázok
 $sql_otazky = "SELECT otazka FROM otazky";
 
-// Príprava dotazu pre otázky
+// Príprava dotazu pre otázky..že je otazka pripravena
 $stmt_otazky = $conn->prepare($sql_otazky);
 
-// Vykonanie dotazu pre otázky
+// vykoná pripravený dotaz s konkrétnymi hodnotami na databáze pre otázky
 $stmt_otazky->execute();
 
 // Získanie otázok
 $otazky = $stmt_otazky->fetchAll(PDO::FETCH_COLUMN);
 
-// Dotaz pre získaniu odpovedi
+// Dotaz pre získanie odpovedi
 $sql_odpovede = "SELECT odpoved FROM odpovede";
 
-// Priprava dotazu pr odpovedi
+// Priprava dotazu pre odpovede..otazaka pripravena
 $stmt_odpovede = $conn->prepare($sql_odpovede);
 
-// Vykonanie dotazu pr odpovede
+// vykoná pripravený dotaz s konkrétnymi hodnotami na databáze pree odpovede
 $stmt_odpovede->execute();
 
 // Získanie odpovedí
